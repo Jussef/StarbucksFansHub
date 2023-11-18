@@ -1,0 +1,292 @@
+[
+  {
+    "Reto de Ahorro 2023": "Semana",
+    "Column4": "Depósito",
+    "Column5": "Balance",
+    "Column6": "Quincena"
+  },
+  {
+    "semana": 1,
+    "deposito": 14,
+    "balance": 14
+  },
+  {
+    "semana": 2,
+    "deposito": 28,
+    "balance": 42,
+    "quincena": 42
+  },
+  {
+    "semana": 3,
+    "deposito": 42,
+    "balance": 84
+  },
+  {
+    "semana": 4,
+    "deposito": 56,
+    "balance": 140
+  },
+  {
+    "semana": 5,
+    "deposito": 70,
+    "balance": 210,
+    "quincena": 168
+  },
+  {
+    "semana": 6,
+    "deposito": 84,
+    "balance": 294
+  },
+  {
+    "semana": 7,
+    "deposito": 98,
+    "balance": 392,
+    "quincena": 182
+  },
+  {
+    "semana": 8,
+    "deposito": 112,
+    "balance": 504
+  },
+  {
+    "semana": 9,
+    "deposito": 126,
+    "balance": 630,
+    "quincena": 238
+  },
+  {
+    "semana": 10,
+    "deposito": 140,
+    "balance": 770
+  },
+  {
+    "semana": 11,
+    "deposito": 154,
+    "balance": 924,
+    "quincena": 294
+  },
+  {
+    "semana": 12,
+    "deposito": 168,
+    "balance": 1092
+  },
+  {
+    "semana": 13,
+    "deposito": 182,
+    "balance": 1274,
+    "quincena": 350
+  },
+  {
+    "semana": 14,
+    "deposito": 196,
+    "balance": 1470
+  },
+  {
+    "semana": 15,
+    "deposito": 210,
+    "balance": 1680,
+    "quincena": 406
+  },
+  {
+    "semana": 16,
+    "deposito": 224,
+    "balance": 1904
+  },
+  {
+    "semana": 17,
+    "deposito": 238,
+    "balance": 2142,
+    "quincena": 462
+  },
+  {
+    "semana": 18,
+    "deposito": 252,
+    "balance": 2394
+  },
+  {
+    "semana": 19,
+    "deposito": 266,
+    "balance": 2660
+  },
+  {
+    "semana": 20,
+    "deposito": 280,
+    "balance": 2940,
+    "quincena": 798
+  },
+  {
+    "semana": 21,
+    "deposito": 294,
+    "balance": 3234
+  },
+  {
+    "semana": 22,
+    "deposito": 308,
+    "balance": 3542,
+    "quincena": 602
+  },
+  {
+    "semana": 23,
+    "deposito": 322,
+    "balance": 3864
+  },
+  {
+    "semana": 24,
+    "deposito": 336,
+    "balance": 4200,
+    "quincena": 658
+  },
+  {
+    "semana": 25,
+    "deposito": 350,
+    "balance": 4550
+  },
+  {
+    "semana": 26,
+    "deposito": 364,
+    "balance": 4914,
+    "quincena": 714
+  },
+  {
+    "semana": 27,
+    "deposito": 378,
+    "balance": 5292
+  },
+  {
+    "semana": 28,
+    "deposito": 392,
+    "balance": 5684,
+    "quincena": 770
+  },
+  {
+    "semana": 29,
+    "deposito": 406,
+    "balance": 6090
+  },
+  {
+    "semana": 30,
+    "deposito": 420,
+    "balance": 6510
+  },
+  {
+    "semana": 31,
+    "deposito": 434,
+    "balance": 6944,
+    "quincena": 1260
+  },
+  {
+    "semana": 32,
+    "deposito": 448,
+    "balance": 7392
+  },
+  {
+    "semana": 33,
+    "deposito": 462,
+    "balance": 7854,
+    "quincena": 910
+  },
+  {
+    "semana": 34,
+    "deposito": 476,
+    "balance": 8330
+  },
+  {
+    "semana": 35,
+    "deposito": 490,
+    "balance": 8820,
+    "quincena": 966
+  },
+  {
+    "semana": 36,
+    "deposito": 504,
+    "balance": 9324
+  },
+  {
+    "semana": 37,
+    "deposito": 518,
+    "balance": 9842,
+    "quincena": 1022
+  },
+  {
+    "semana": 38,
+    "deposito": 532,
+    "balance": 10374
+  },
+  {
+    "semana": 39,
+    "deposito": 546,
+    "balance": 10920,
+    "quincena": 1078
+  },
+  {
+    "semana": 40,
+    "deposito": 560,
+    "balance": 11480
+  },
+  {
+    "semana": 41,
+    "deposito": 574,
+    "balance": 12054,
+    "quincena": 1134
+  },
+  {
+    "semana": 42,
+    "deposito": 588,
+    "balance": 12642
+  },
+  {
+    "semana": 43,
+    "deposito": 602,
+    "balance": 13244
+  },
+  {
+    "semana": 44,
+    "deposito": 616,
+    "balance": 13860,
+    "quincena": 1806
+  },
+  {
+    "semana": 45,
+    "deposito": 630,
+    "balance": 14490
+  },
+  {
+    "semana": 46,
+    "deposito": 644,
+    "balance": 15134,
+    "quincena": 1274
+  },
+  {
+    "semana": 47,
+    "deposito": 658,
+    "balance": 15792
+  },
+  {
+    "semana": 48,
+    "deposito": 672,
+    "balance": 16464,
+    "quincena": 1330
+  },
+  {
+    "semana": 49,
+    "deposito": 686,
+    "balance": 17150
+  },
+  {
+    "semana": 50,
+    "deposito": 700,
+    "balance": 17850,
+    "quincena": 1386
+  },
+  {
+    "semana": 51,
+    "deposito": 714,
+    "balance": 18564
+  },
+  {
+    "semana": 52,
+    "deposito": 1436,
+    "balance": 20000,
+    "quincena": 2150
+  }
+]

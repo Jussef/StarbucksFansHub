@@ -1,0 +1,49 @@
+@import "../../variables";
+
+.paperFijos {
+  background-color: $morado2 !important;
+  margin: 20px;
+  min-width: 210px;
+}
+.paper {
+  border-radius: 10px !important;
+  padding: 20px 0px 15px 0px;
+}
+.iconoPaper {
+  background-color: $morado3;
+  color: black;
+  width: 45px !important;
+  height: 45px !important;
+  padding: 5px;
+  border-radius: 20px;
+  position: relative;
+  top: -10px;
+  left: 11px;
+}
+.tituloPaper {
+  position: relative;
+  width: fit-content;
+  top: -80px;
+  left: 80px;
+  text-align: start;
+  color: white;
+}
+.costoPaper {
+  margin-bottom: 0px;
+  margin-top: -80px;
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+}
+.botonFab {
+  position: fixed !important;
+  bottom: 20px;
+  right: 20px;
+}
+
+@media (max-width: 900px) {
+  .paperFijos {
+    margin: 0px !important;
+    // margin-top: -20px;
+  }
+}

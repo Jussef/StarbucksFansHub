@@ -1,0 +1,13 @@
+/* Estilos para centrar vertical y horizontalmente el contenedor */
+.loader {
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  height: 100vh; /* Altura igual al 100% del viewport */
+}
+
+/* Establece el ancho deseado para tu animación Lottie */
+.lottie-animation {
+  width: 20%; /* Ancho del 20% de la pantalla */
+  height: auto;
+}

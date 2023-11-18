@@ -1,0 +1,61 @@
+@import "../../variables";
+
+.subtitulo {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.flexCenterCol {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+}
+.flexCenterRow {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.flexEnd {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+}
+.paperDinero {
+  background-color: $morado1 !important;
+}
+.paperFijos {
+  background-color: $morado2 !important;
+  margin: 20px;
+}
+.dineroTitulo {
+  padding-left: 0px;
+  font-size: 1rem;
+  color: white;
+  margin-bottom: -30px;
+}
+.dineroInit {
+  padding-left: 0px;
+  font-size: 1.8rem;
+  color: rgb(194, 194, 194);
+}
+.dineroActual {
+  padding-left: 0px;
+  font-size: 2rem;
+  color: white;
+}
+.paper {
+  border-radius: 10px !important;
+  padding: 20px 0px 15px 0px;
+}
+.iconEdit {
+  margin-right: 15px;
+}
+.btnPages {
+  font-size: 40px !important;
+}
