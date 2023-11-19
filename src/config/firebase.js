@@ -1,21 +1,24 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from 'firebase/app';
+import { getAnalytics } from "firebase/analytics";
 import { getAuth } from 'firebase/auth';
 import { getDatabase } from 'firebase/database';
 import { getStorage } from 'firebase/storage';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-	apiKey: "AIzaSyAs5SSPLKN0snXC01DvVD8merjtqYt9w7I",
-	authDomain: "dashboard-inversiones-ahorro.firebaseapp.com",
-	projectId: "dashboard-inversiones-ahorro",
-	storageBucket: "dashboard-inversiones-ahorro.appspot.com",
-	messagingSenderId: "554734240524",
-	appId: "1:554734240524:web:1fea1db14a641c4a98bf29"
+	apiKey: "AIzaSyAdRgQyJ_heGzbx0mwyFQIWjwADJvRjgs4",
+	authDomain: "starbucksfanshub.firebaseapp.com",
+	projectId: "starbucksfanshub",
+	storageBucket: "starbucksfanshub.appspot.com",
+	messagingSenderId: "285395305539",
+	appId: "1:285395305539:web:f538548645d3b49c29c0f6",
+	measurementId: "G-RVGTCGGCZV"
   };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 export const auth = getAuth(app);
 export const db = getDatabase(app);
 export const storage = getStorage(app);
