@@ -13,13 +13,14 @@ import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import MenuIcon from "@mui/icons-material/Menu";
-import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
+// import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
+import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
 import PetsIcon from "@mui/icons-material/Pets";
 import SavingsIcon from "@mui/icons-material/Savings";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
-import Reto from "../Reto/Reto";
+import Reto from "../Lanzamientos";
 import Mascotas from "../Mascotas/Mascotas";
 import Presupuesto from "../Presupuesto/Presupuesto";
 import "./styles.scss";
@@ -54,14 +55,14 @@ function Home(props) {
           key="0"
           disablePadding
           onClick={() => {
-            handleVista('reto');
+            handleVista('lanzamientos');
           }}
         >
           <ListItemButton>
             <ListItemIcon>
-              <CalendarMonthIcon className={vista === 0 && "selected-icon"} />
+              <RocketLaunchIcon className={vista === 0 && "selected-icon"} />
             </ListItemIcon>
-            <ListItemText primary="Reto 52 semanas" className={vista === 0 && "selected-icon"} />
+            <ListItemText primary="Lanzamientos" className={vista === 0 && "selected-icon"} />
           </ListItemButton>
         </ListItem>
         <ListItem
@@ -122,7 +123,7 @@ function Home(props) {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Dashboard
+            Starbucks Fans Hub
           </Typography>
           {/* <Button color="inherit">Login</Button> */}
         </Toolbar>

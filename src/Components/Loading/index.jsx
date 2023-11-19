@@ -1,13 +1,13 @@
 import React from "react";
 import Lottie from "lottie-react";
-import catCoin from "../../img/catcoin.json";
+import anim from "../../img/coffe.json";
 import "./styles.scss";
 
 export default function Loading() {
   return (
     <>
       <div className="loader">
-        <Lottie animationData={catCoin} className="lottie-animation"/>
+        <Lottie animationData={anim} className="lottie-animation"/>
       </div>
     </>
   );

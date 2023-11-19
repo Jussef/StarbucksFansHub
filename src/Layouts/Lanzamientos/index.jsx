@@ -6,7 +6,7 @@ import Grid from "@mui/material/Grid";
 import Home from "../Home/Home";
 import { getWeekNumber, getWeekDays, getDataWeekNumber } from "../../Utils/helpers";
 
-export default function Reto() {
+export default function Lanzamientos() {
   const weekDays = getWeekDays();
   const weekNumber = getWeekNumber();
   const dataWeekNumber = getDataWeekNumber();
