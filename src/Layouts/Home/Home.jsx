@@ -13,16 +13,11 @@ import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import MenuIcon from "@mui/icons-material/Menu";
-// import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
 import PetsIcon from "@mui/icons-material/Pets";
 import SavingsIcon from "@mui/icons-material/Savings";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
-import Button from "@mui/material/Button";
-import Reto from "../Lanzamientos";
-import Mascotas from "../Mascotas/Mascotas";
-import Presupuesto from "../Presupuesto/Presupuesto";
 import "./styles.scss";
 
 const drawerWidth = 240;
@@ -32,7 +27,6 @@ function Home(props) {
   const { children, vista } = props;
   const { window } = props;
   const [mobileOpen, setMobileOpen] = useState(false);
-  // const [vistaUser, setVistaUser] = useState('reto');
 
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);
@@ -69,14 +63,14 @@ function Home(props) {
           key="1"
           disablePadding
           onClick={() => {
-            handleVista('mascotas');
+            handleVista('beneficios');
           }}
         >
           <ListItemButton>
             <ListItemIcon>
               <PetsIcon className={vista === 1 && "selected-icon"} />
             </ListItemIcon>
-            <ListItemText primary="Croquetas" className={vista === 1 && "selected-icon"} />
+            <ListItemText primary="Beneficios" className={vista === 1 && "selected-icon"} />
           </ListItemButton>
         </ListItem>
         <ListItem

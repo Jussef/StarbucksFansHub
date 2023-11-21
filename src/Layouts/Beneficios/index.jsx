@@ -4,11 +4,11 @@ import Home from "../Home/Home";
 import { getWeekNumber } from "../../Utils/helpers";
 import "./styles.scss";
 
-export default function Lanzamientos() {
+export default function Beneficios() {
   return (
-    <Home vista={0}>
-      <Box id="lanzamientos" sx={{ flexGrow: 1 }}>
-        <h1>Calendario de Lanzamientos</h1>
+    <Home vista={1}>
+      <Box id="beneficios" sx={{ flexGrow: 1 }}>
+        <h1>Todos los Beneficios Rewards</h1>
         
       </Box>
     </Home>
